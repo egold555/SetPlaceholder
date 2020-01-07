@@ -1,0 +1,17 @@
+name: SetPlaceholder
+main: org.golde.bukkit.setplaceholder.Main
+version: 1.0
+author: Eric Golde
+description: Custom plugin for blindfolded. Placeholder is 'set_'
+website: http://eric.golde.org/
+depends: [PlaceholderAPI]
+commands:
+   set:
+      description: set the placeholder value
+      usage: /set 
+      permission: score.use
+      
+      
+permissions:
+  score.use:
+    default: true
